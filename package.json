@@ -21,6 +21,7 @@
     "homepage": "https://github.com/Lakshani09DL/Abans-Agent#readme",
     "description": "",
     "devDependencies": {
+        "@cap-js/sqlite": "^2.4.0",
         "@sap/cds-dk": "^9.8.3"
     },
     "dependencies": {
