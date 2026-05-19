@@ -1,0 +1,31 @@
+{
+    "name": "abans-agent",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "cds-serve",
+        "dev": "cds watch",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Lakshani09DL/Abans-Agent.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/Lakshani09DL/Abans-Agent/issues"
+    },
+    "homepage": "https://github.com/Lakshani09DL/Abans-Agent#readme",
+    "description": "",
+    "devDependencies": {
+        "@sap/cds-dk": "^9.8.3"
+    },
+    "dependencies": {
+        "@cap-js/postgres": "^2",
+        "@sap/cds": "^9",
+        "dotenv": "^17"
+    }
+}
