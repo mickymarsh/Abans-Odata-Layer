@@ -1,0 +1,20 @@
+{
+    "name": "abans-odata-gateway",
+    "version": "1.0.0",
+    "description": "OData V4 API Gateway — Minimal Starter",
+    "main": "src/server.js",
+    "scripts": {
+      "start": "node src/server.js",
+      "dev": "nodemon src/server.js"
+    },
+    "dependencies": {
+      "express": "^4.19.2",
+      "pg": "^8.12.0",
+      "dotenv": "^16.4.5",
+      "cors": "^2.8.5",
+      "helmet": "^7.1.0"
+    },
+    "devDependencies": {
+      "nodemon": "^3.1.4"
+    }
+  }
